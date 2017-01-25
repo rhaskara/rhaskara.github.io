@@ -23,7 +23,7 @@ body {
 .scrlrow {
   display: table;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 }
 
 li {
@@ -69,6 +69,7 @@ nav a:focus {
 
 @media(max-width:767px) {
   .banner {
+    height: 100%;
     width: 100%;
   }
 }
@@ -134,7 +135,7 @@ nav a:focus {
 
   .main-content {
     padding-left: 25vw;
-    padding-top: 10vw;
+    padding-top: 10vh;
   }
 
   .scrlrow {
@@ -150,6 +151,7 @@ nav a:focus {
   }
 
   .separator {
+    margin-top: 15vh;
     font-size: 3em;
   }
 }
