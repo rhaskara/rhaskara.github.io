@@ -160,4 +160,9 @@ nav a:focus {
     padding-top: 5vh;
     font-size: 3em;
   }
+
+  .welcome .separator {
+    padding: 0;
+    margin: 0;
+  }
 }
