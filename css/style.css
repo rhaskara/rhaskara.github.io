@@ -26,6 +26,11 @@ body {
   height: 100vh;
 }
 
+.welcome .separator {
+  padding: 0;
+  margin: 0;
+}
+
 li {
   list-style: none;
 }
