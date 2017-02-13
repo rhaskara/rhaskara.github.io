@@ -74,7 +74,7 @@ nav a:focus {
   color: #000000;
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   .banner {
     height: 100%;
     width: 100%;
