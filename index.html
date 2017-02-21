@@ -6,32 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Rafferty Hutari Askara</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand|Indie+Flower">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand|Exo|Courgette">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("a").on('click', function(event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800);
-          }
-        });
-      });
-  </script>
+    <script src="js/main.js" type="text/javascript"></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-toggleable-md navbar-inverse" style="background-color: #006AA8">
-      <h1 class="navbar-brand mb-0">rhaskara.github.io</h1>
+    <nav class="navbar navbar-toggleable-md navbar-inverse animated fadeInDown" style="background-color: #006AA8">
+      <li class="navbar-brand mb-0">rhaskara.github.io</li>
       <li class="nav-item"><a class="nav-link" href="#section-one">About Me</a></li>
       <li class="nav-item"><a class="nav-link" href="#section-two">History</a></li>
       <li class="nav-item"><a class="nav-link" href="#section-three">Education/Skills/Experience</a></li>
@@ -39,55 +28,70 @@
     </nav>
 
     <div class="pure-g">
-      <div class="pure-u-1 pure-u-md-1-4 pure-u-lg banner">
-        <header class="welcome">
+      <div class="pure-u-1 pure-u-md-1-4 pure-u-lg banner animated fadeInLeft">
+        <header class="welcome animated fadeInUp">
           <img class="profpic" style="filter: grayscale(10%)" src="images/profpic.jpg"/>
-          <h1 class="separator" style="color: #FFCC00">Hi There, Welcome!</h1>
+          <h1 class="separator" style="color: #000000">Hi There, Welcome!</h1>
         </header>
       </div>
 
       <div class="pure-u-1 pure-u-md pure-u-lg">
         <div class="main-content">
-          <section class="scrlrow" id="section-zero">
-            <p class="info">My name is Rafferty Askara,<br> and this is my website.</p>
-          </section>
-
-          <section class="scrlrow" id="section-one">
-            <h1 class="separator">About Me:</h1>
-            <p class="info">
-              <a href="https://en.wikipedia.org/wiki/Gloving">Gloving</a> is one of my hobbies, and I also enjoy playing
-              <a href="https://en.wikipedia.org/wiki/Pool_(cue_sports)">Pool</a>.<br>
-              Legends say that I make good impersonations of people.
-            </p>
-          </section>
-
-          <section class="scrlrow" id="section-two">
-            <h1 class="separator">History</h1>
-            <p class="info">
-              I was born and raised in <a href="https://en.wikipedia.org/wiki/Jakarta">Jakarta, Indonesia</a>.<br>
-              Bahasa Indonesia is my mother tongue, I speak fluent English, and also a little bit of Mandarin (Chinese).<br>
-              I started coding since <a href="http://www.gandhijkt.org/">High School</a>, and it has been my passion since then.
-            </p>
-          </section>
-
-          <section class="scrlrow" id="section-three">
-            <h1 class="separator">Education / Skills / Experience:</h1>
-            <p class="info">I am a Graduating Senior at <a href="https://www.ucdavis.edu/">UC Davis</a> majoring in <a href="http://www.cs.ucdavis.edu/">Computer Science</a>.<br>
-              I am comfortable working with many different programming languages. Mainly Java and C++.<br>
-              For more information, here's my resume: <a href="https://docs.google.com/document/d/1TfxX-KbdLKFIU7dtZqCzqQeot9fxg9o24aTMEryxTmI/edit?usp=sharing"><i class="fa fa-file-pdf-o"></i></a>
-            </p>
-          </section>
-
-          <footer>
-            <section class="scrlrow" id="section-four">
-              <h1 class="separator">Contact:</h1>
-              <p class="info">Want to know more about me?<br>
-                Email me at: <a href="mailto:rafferty.askara@gmail.com"><i class="fa fa-envelope-o"></i></a><br>
-                Check out my GitHub: <a href="https://github.com/rhaskara"><i class="fa fa-github-square"></i></a><br>
-                Connect with me on Linkedin: <a href="https://www.linkedin.com/in/rhaskara"><i class="fa fa-linkedin-square"></i></a><br>
-                Follow me on Instagram: <a href="https://www.instagram.com/raskara17"><i class="fa fa-instagram"></i></a><br>
+          <div id="section-zero">
+            <section class="scrlrow">
+              <p class="animated fadeInUp info">
+                My name is Rafferty Askara<br> and this is my website.<br>
+                Quicklinks:
+                <a href="https://www.dropbox.com/s/rpy1kfigzxnv7y2/Resume.pdf?dl=0"><i class="fa fa-file-pdf-o"></i></a>
+                <a href="https://github.com/rhaskara"><i class="fa fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/rhaskara"><i class="fa fa-linkedin-square"></i></a>
               </p>
             </section>
+          </div>
+
+          <div id="section-one">
+            <section class="scrlrow">
+              <h1 class="separator">About Me:</h1>
+              <p class="info">
+                <a href="https://en.wikipedia.org/wiki/Gloving">Gloving</a> is one of my hobbies and I also enjoy playing
+                <a href="https://en.wikipedia.org/wiki/Pool_(cue_sports)">Pool</a>.<br>
+                Legends say that I make good impersonations of people.
+              </p>
+            </section>
+          </div>
+
+          <div id="section-two">
+            <section class="scrlrow">
+              <h1 class="separator">History</h1>
+              <p class="info">
+                I was born and raised in <a href="https://en.wikipedia.org/wiki/Jakarta">Jakarta, Indonesia</a>.<br>
+                Bahasa Indonesia is my mother tongue, I speak fluent English, and also a little bit of Mandarin (Chinese).<br>
+                I started coding since <a href="http://www.gandhijkt.org/">High School</a>, and it has been my passion since then.
+              </p>
+            </section>
+          </div>
+
+          <div id="section-three">
+            <section class="scrlrow">
+              <h1 class="separator">Education / Skills / Experience:</h1>
+              <p class="info">I am a Graduating Senior at <a href="https://www.ucdavis.edu/">UC Davis</a> majoring in <a href="http://www.cs.ucdavis.edu/">Computer Science</a>.<br>
+                I am comfortable working with many different programming languages: mainly Java and C++.<br>
+                For more information, here's my resume: <a href="https://www.dropbox.com/s/rpy1kfigzxnv7y2/Resume.pdf?dl=0"><i class="fa fa-file-pdf-o"></i></a>
+              </p>
+            </section>
+          </div>
+
+          <footer>
+            <div id="section-four">
+              <section class="scrlrow">
+                <h1 class="separator">Contact:</h1>
+                <p class="info">Want to know more about me?<br>
+                  Email me at: <a href="mailto:rafferty.askara@gmail.com"><i class="fa fa-envelope-o"></i></a><br>
+                  Check out my GitHub: <a href="https://github.com/rhaskara"><i class="fa fa-github-square"></i></a><br>
+                  Connect with me on Linkedin: <a href="https://www.linkedin.com/in/rhaskara"><i class="fa fa-linkedin-square"></i></a><br>
+                </p>
+              </section>
+            </div>
             <!--I do not own the image used for the banner's background. All credits for the image goes to the owner.-->
           </footer>
         </div>

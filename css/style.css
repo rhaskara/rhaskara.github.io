@@ -6,7 +6,7 @@ body {
   max-width: 100%;
   height: auto;
   text-align: center;
-  background-color: #F9FAFF;
+  background-color: #FDFDFF;
 }
 
 .profpic {
@@ -19,7 +19,7 @@ body {
   background-size: 100% 100%;
   background-position: center;
   background-image: url("../images/Aggie_Stadium_(UC_Davis).jpg");
-  background-color: #AAAAAA;
+  background-color: #BBBBBB;
   background-blend-mode: overlay;
 }
 
@@ -32,6 +32,7 @@ body {
 .welcome .separator {
   padding: 0;
   margin: 0;
+  font-family: 'Courgette', cursive, serif;
 }
 
 li {
@@ -60,18 +61,18 @@ nav a:focus {
 .fa:focus {
   transition: 0.5s ease;
   font-size: 1.2em;
-  color: #FB2020;
+  color: #FB1010;
 }
 
 .separator {
-  font-family: 'Indie Flower', cursive, serif;
+  font-family: 'Exo', cursive, serif;
   color: #FFCC00;
   text-align: center;
   font-size: 2em;
 }
 
 .info {
-  font-family: 'Indie Flower', cursive, serif;
+  font-family: 'Quicksand', cursive, serif;
   text-align: center;
   font-size: 1.5em;
   color: #000000;
