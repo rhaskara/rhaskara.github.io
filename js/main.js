@@ -1,4 +1,6 @@
-$(function () {
+$(document).ready(function () {
+
+  //smooth scrolling
   $("a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
@@ -8,4 +10,5 @@ $(function () {
       }, 800);
     }
   });
+
 });
