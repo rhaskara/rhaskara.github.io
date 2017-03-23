@@ -98,6 +98,10 @@ a:focus {
   color: #FB2020;
 }
 
+.proj-title {
+  border-bottom: 1px solid #000000;
+}
+
 @media(max-width:768px) {
   .banner {
     height: 100%;
