@@ -10,7 +10,7 @@ body {
 }
 
 .profpic {
-  border-radius:100%;
+  border-radius:50%;
   height: 50%;
   width: 50%;
 }
@@ -118,7 +118,7 @@ a:focus {
 @media(min-width:48em){
   .profpic {
     margin-top: 100px;
-    border-radius: 100%;
+    border-radius: 50%;
     height: 75%;
     width: 75%;
   }
@@ -156,7 +156,7 @@ a:focus {
 @media(min-width:64em) {
   .profpic {
     margin-top: 100px;
-    border-radius: 100%;
+    border-radius: 50%;
     height: 80%;
     width: 80%;
   }
