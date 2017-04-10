@@ -108,6 +108,33 @@ a:focus {
   border-bottom: 1px solid #000000;
 }
 
+.no-link {
+  color: #0275D8;
+}
+
+.no-link .tooltip-text {
+  margin: 0;
+  font-size: 40%;
+  visibility: hidden;
+  max-width: 80vw;
+  background-color: rgba(0,0,0,0.7);
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.no-link:hover {
+  color: #FB2020;
+  cursor: pointer;
+}
+
+.no-link:hover .tooltip-text {
+  visibility: visible;
+}
+
 @media(max-width:768px) {
   .banner {
     height: 100%;
