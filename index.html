@@ -13,24 +13,28 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <!--<link rel="stylesheet" href="css/grid-old-ie.css">-->
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="70">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-toggleable-md navbar-inverse animated fadeInDown" style="background-color: #006AA8">
-      <li class="navbar-brand mb-0">rhaskara.github.io</li>
-      <li class="nav-item"><a class="nav-link" href="#section-one">About Me</a></li>
-      <li class="nav-item"><a class="nav-link" href="#section-two">History</a></li>
-      <li class="nav-item"><a class="nav-link" href="#section-three">Education/Skills/Experience</a></li>
-      <li class="nav-item"><a class="nav-link" href="#section-four">Projects</a></li>
-      <li class="nav-item"><a class="nav-link" href="#section-five">Contact Information</a></li>
+      <ul class="nav navbar-nav">
+        <li class="navbar-brand mb-0">rhaskara.github.io</li>
+        <li class="nav-item"><a class="nav-link" href="#section-one">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-two">History</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-three">Education/Skills/Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-four">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-five">Contact Information</a></li>
+      </ul>
     </nav>
 
     <div class="pure-g">
       <!-- Side Banner -->
-      <div class="pure-u-1 pure-u-md-1-4 pure-u-lg banner animated fadeInLeft">
+      <div class="pure-u-1 pure-u-nav-1-4 pure-u-lg banner animated fadeInLeft">
         <header class="welcome animated fadeInUp">
           <img class="profpic" style="filter: grayscale(10%)" src="images/profpic.jpg"/>
           <h1 class="separator" style="color: #000000">Hi There, Welcome!</h1>
@@ -38,7 +42,7 @@
       </div>
 
       <!-- Maain Content -->
-      <div class="pure-u-1 pure-u-md pure-u-lg">
+      <div class="pure-u-1 pure-u-nav-1 pure-u-lg">
         <div class="animated fadeInUp main-content">
           <div id="section-zero">
             <section class="scrlrow">
@@ -203,6 +207,8 @@
     </div>
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="js/main.js" type="text/javascript"></script>
 
   </body>

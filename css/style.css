@@ -5,6 +5,7 @@
 body {
   max-width: 100%;
   height: auto;
+  position: relative;
   text-align: center;
   background-color: #FDFDFF;
 }
@@ -41,12 +42,19 @@ li {
 
 nav a {
   font-family: 'Quicksand', serif;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
-nav a:hover,
-nav a:focus {
-  color: #FFD800;
+nav a:hover {
+  color: #FFD800 !important;
+}
+
+nav a:active {
+  color: #FFFFFF !important;
+}
+
+.active {
+  color: #FFD800 !important;
 }
 
 a:hover,
@@ -142,7 +150,7 @@ a:focus {
   }
 }
 
-@media(min-width:48em){
+@media(min-width:992px){
   .profpic {
     margin-top: 100px;
     border-radius: 50%;
@@ -180,7 +188,7 @@ a:focus {
   }
 }
 
-@media(min-width:64em) {
+@media(min-width:1200px) {
   .profpic {
     margin-top: 100px;
     border-radius: 50%;
