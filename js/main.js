@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
   //smooth scrolling
   $("a").on('click', function(event) {
     if (this.hash !== "") {
@@ -10,5 +9,4 @@ $(document).ready(function () {
       }, 800);
     }
   });
-
 });
